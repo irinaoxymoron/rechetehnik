@@ -69,3 +69,25 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('../fonts/FuturaBookC/FuturaBookC.eot') format('embedded-opentype'), url('../fonts/FuturaBookC/FuturaBookC.woff2') format('woff2'), url('../fonts/FuturaBookC/FuturaBookC.woff') format('woff'), url('../fonts/FuturaBookC/FuturaBookC.ttf') format('truetype');
+}
+
+@mixin FuturaBookC() {
+  font-family: FuturaBookC;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrebuchetMS';
+  src: url('../fonts/TrebuchetMS/TrebuchetMS.eot') format('embedded-opentype'), url('../fonts/TrebuchetMS/TrebuchetMS.woff2') format('woff2'), url('../fonts/TrebuchetMS/TrebuchetMS.woff') format('woff'), url('../fonts/TrebuchetMS/TrebuchetMS.ttf') format('truetype');
+}
+
+@mixin TrebuchetMS() {
+  font-family: TrebuchetMS;
+  font-weight: normal;
+  font-style: normal;
+}
